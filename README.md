@@ -1,2 +1,3 @@
-# email-design-snippets
+# Email Design Snippets
+
 Helpful email design snippets.

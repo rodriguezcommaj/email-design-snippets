@@ -1,0 +1,17 @@
+<!-- The required stuff for getting dark mode support working. -->
+
+<!-- Add this to the <head> of your email. -->
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+<!-- Then include an embedded style block to get things going. -->
+<style>
+    :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+    }
+
+    @media (prefers-color-scheme: dark ) {
+        /* Your styles go here. */
+    }
+</style>
